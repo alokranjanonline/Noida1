@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Noida1</string>
+    <string name="login">Login</string>
+    <string name="enter_mail">Enter email</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="submit">Login</string>
+    <string name="login_error">Error Message</string>
+    <string name="registration">Registration</string>
+    <string name="enter_fullname">Enter Full Name</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="registration_password">Enter Password</string>
+    <string name="registration_submit">Register</string>
+    <string name="registration_error" />
+    <string name="toggle_login_reg_text">Click here to registration</string>
+    <string name="user_name">User Name</string>
+    <string name="user_email">User Email</string>
+    <string name="user_logout">Logout</string>
+    <string name="fetch_user_data">Fetch User</string>
+</resources>

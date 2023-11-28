@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- get your X-->
+    <TextView
+        android:text="Welcome to the app"
+        android:textSize="25sp"
+        android:padding="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnAnotherActivity"
+        android:text="Another Acitiviy"
+        android:textColor="#FFF"
+        android:background="#397bb2"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp" />
+
+    <Button
+        android:id="@+id/btnLoginActivity"
+        android:text="Login"
+        android:textColor="#FFF"
+        android:background="#397bb2"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp" />
+
+    <Button
+        android:id="@+id/btnRegisterActivity"
+        android:text="Register"
+        android:textColor="#FFF"
+        android:background="#397bb2"
+        android:layout_width="300dp"
+        android:layout_height="50dp" />
+    <TextView
+        android:id="@+id/check_session_on_main_act"
+        android:text="Check Session"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/check_cookies_on_main_act"
+        android:text="Check Cookies"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/check_global_value"
+        android:text="Check Global Value"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
